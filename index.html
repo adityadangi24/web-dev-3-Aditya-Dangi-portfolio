@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="nav container">
+            <h1 class="logo">MyPortfolio</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero container">
+        <div class="hero-text">
+            <h2 class="title animate-fade">Hi, I'm <span class="highlight">Aditya Dangi</span></h2>
+            <p class="subtitle animate-fade">A Front-End Developer crafting beautiful & responsive websites.</p>
+            <button class="btn">Download Resume</button>
+        </div>
+
+        <div class="hero-img animate-up">
+    <img src="profile.jpeg" alt="My Profile Picture" class="profile-pic">
+</div>
+
+    </section>
+
+    <!-- PROJECTS SECTION USING CSS GRID -->
+    <section id="projects" class="projects container">
+        <h2 class="section-title">Projects</h2>
+        <div class="grid">
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250" alt="">
+                <h3>Portfolio</h3>
+                <p>Designed this interactive portfolio using HTML, CSS, Flexbox, and Grid</p>
+            </div>
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250" alt="">
+                <h3>Simple Calculator</h3>
+                <p>Built a basic calculator using HTML, CSS, and JavaScript for arithmetic operations .</p>
+            </div>
+
+            <div class="project-card">
+                <img src="https://via.placeholder.com/400x250" alt="">
+                <h3>To-Do-List app</h3>
+                <p>Created a Python-based command line to-do list for task management.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION (FLEXBOX) -->
+    <section id="skills" class="skills container">
+        <h2 class="section-title">Skills</h2>
+        <div class="skill-box">
+            <div>HTML</div>
+            <div>CSS</div>
+            <div>JavaScript</div>
+            <div>Python</div>
+            <div>React</div>
+            <div>Node.js</div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact container">
+        <h2 class="section-title">Contact Me</h2>
+        <button class="btn">Send Message</button>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Aditya Dangi • All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
